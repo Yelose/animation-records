@@ -11,14 +11,20 @@ header{
     section{
         display: flex;
         font-family: 'Cabin Sketch';
-        .logo{
-            width: 40px;
+        font-size: clamp(24px, 2.5vw, 36px);
         }
+
+        .logo{
+                width: 20px;
+                height: 20px;
+        }
+    }
+    
+
+    .cesta-menu{
+    justify-content: space-evenly;
         .cesta{
             width: 20px;
         }
     }
-    nav{
-     align-self: flex-end;
-    }
-}
+

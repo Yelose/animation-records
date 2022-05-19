@@ -12,15 +12,18 @@ header {
 header section {
   display: flex;
   font-family: "Cabin Sketch";
+  font-size: clamp(24px, 2.5vw, 36px);
 }
-header section .logo {
-  width: 40px;
-}
-header section .cesta {
+header .logo {
   width: 20px;
+  height: 20px;
 }
-header nav {
-  align-self: flex-end;
+
+.cesta-menu {
+  justify-content: space-evenly;
+}
+.cesta-menu .cesta {
+  width: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
