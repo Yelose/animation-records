@@ -1,13 +1,2 @@
-#imagen-product {
-    display: flex;
-    justify-content: flex-start;
-}
 
-.principal-imagen-product {
-    display:block;
-}
-
-.images {
-    display: flex;
-    align-items: flex-start;
-}
+@import 'product.scss';
