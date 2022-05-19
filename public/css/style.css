@@ -6,7 +6,21 @@
 header {
   width: 100%;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+header section {
+  display: flex;
+  font-family: "Cabin Sketch";
+}
+header section .logo {
+  width: 40px;
+}
+header section .cesta {
+  width: 20px;
+}
+header nav {
+  align-self: flex-end;
 }
 
 /*# sourceMappingURL=style.css.map */

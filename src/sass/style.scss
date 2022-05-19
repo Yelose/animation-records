@@ -6,6 +6,19 @@
 header{
     width: 100%;
     display:flex;
-    justify-content: center;
-    
+    align-items: center;
+    justify-content: space-around;
+    section{
+        display: flex;
+        font-family: 'Cabin Sketch';
+        .logo{
+            width: 40px;
+        }
+        .cesta{
+            width: 20px;
+        }
+    }
+    nav{
+     align-self: flex-end;
+    }
 }
