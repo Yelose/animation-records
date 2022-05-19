@@ -1,0 +1,52 @@
+* {
+    margin:0;
+    padding: 0;
+   }
+   header{
+       width: 100%;
+       display:flex;
+       justify-content: space-between; 
+       margin: 2%;
+       align-items: center;
+
+       section{
+          
+           width: 100%;
+           font-family: 'Cabin Sketch';
+           font-size: clamp(14px, 2.5vw, 26px);
+           justify-content: space-evenly;
+           
+                h1{
+                    margin-top: 2%;
+                    font-size: larger; 
+                }
+                .logo{
+                    width: 70px;
+                    height: 70px;
+                    }
+            }       
+       }     
+       .cesta-menu{
+        justify-content: space-evenly;
+            button{
+                width:98px;
+                height: 28px;
+                border-radius: 5px;
+                font-family:sans-serif;
+                font-weight: 600;
+                border:none;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                }
+                    .btn-cesta{
+                        border: none;
+                        width: 30px;
+                        height: 30px;
+                    }
+                        .home{
+                            background-color:#FFA3A3;  
+                            }
+                        .categorias{ 
+                             background-color:#f6df4c;  
+                            }
+                        }
+   

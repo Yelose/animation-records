@@ -1,47 +1,3 @@
-#product {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: space-between;
-  align-self: baseline;
-}
-
-#imagen-product {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-right: 15%;
-}
-
-.images {
-  display: flex;
-  justify-content: flex-start;
-  align-content: space-between;
-  position: absolute;
-  z-index: 1;
-  margin-top: 30%;
-  width: 10%;
-  height: 10%;
-}
-
-aside {
-  padding: 10px;
-}
-
-.description-product {
-  background-color: yellow;
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-
-#shop {
-  display: flex;
-  border-radius: 10%;
-  background-color: transparent;
-  border-color: grey;
-  padding: 3%;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -93,4 +49,4 @@ header section .logo {
   background-color: #f6df4c;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=header.css.map */
