@@ -1,5 +1,15 @@
-body {
-  background-color: gray;
+#imagen-product {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.principal-imagen-product {
+  display: block;
+}
+
+.images {
+  display: flex;
+  align-items: flex-start;
 }
 
 /*# sourceMappingURL=style.css.map */

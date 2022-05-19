@@ -1,6 +1,13 @@
-* {
-
+#imagen-product {
+    display: flex;
+    justify-content: flex-start;
 }
-body {
-    background-color: gray;
+
+.principal-imagen-product {
+    display:block;
+}
+
+.images {
+    display: flex;
+    align-items: flex-start;
 }
