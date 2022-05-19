@@ -49,28 +49,4 @@ header section .logo {
   background-color: #f6df4c;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  width: 100%;
-  display: flex;
-}
-header section {
-  display: flex;
-  width: 100%;
-  font-family: "Cabin Sketch";
-  font-size: clamp(24px, 2.5vw, 36px);
-}
-header .logo {
-  width: 20px;
-  height: 20px;
-}
-
-.cesta-menu .cesta {
-  width: 20px;
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=header.css.map */
