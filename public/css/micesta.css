@@ -1,0 +1,65 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+main .mi-cesta {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 70%;
+  max-width: 800px;
+  min-width: 350px;
+}
+main .mi-cesta h3 {
+  background-color: #F49FB6;
+  padding: 1vh 4vw;
+}
+main .mi-cesta section {
+  background-color: #E9FFE8;
+}
+main .mi-cesta section .cesta-producto article {
+  margin: 1vh 2vw;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+main .mi-cesta section .cesta-producto article .cesta-imagen-nombre-precio-producto {
+  flex-basis: 50%;
+  gap: 1vw;
+  justify-content: space-between;
+}
+main .mi-cesta section .cesta-producto article div {
+  display: flex;
+  align-items: center;
+}
+main .mi-cesta section .cesta-producto article div .cesta-imagen-producto {
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-size: cover;
+}
+main .mi-cesta section .cesta-producto article div .cesta-nombre-producto {
+  flex-basis: 40%;
+  justify-content: flex-end;
+}
+main .mi-cesta section .cesta-producto article .cesta-cantidad-producto {
+  gap: 1vw;
+}
+main .mi-cesta section .cesta-producto article .cesta-subtotal-producto {
+  gap: 1vw;
+}
+
+.dama {
+  background-image: url(/images/dama.jpg);
+}
+
+.rata {
+  background-image: url(/images/ratatouille.jpg);
+}
+
+.ariel {
+  background-image: url(/images/ariel.jpg);
+}
+
+/*# sourceMappingURL=micesta.css.map */
