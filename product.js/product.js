@@ -7,10 +7,14 @@ function changeImage (imagen) {
 
 let likeimagen = document.getElementById("like");
 
-function changeImageLike (imagen) {
+
+function changeImagenLike (imagen) {
     
     if (likeimagen.src = imagen.src) {
         likeimagen.src = "/images/like-icon-0pink.png"
     }
 
+    else {
+        likeimagen.src = document.getElementById("like").innerHTML;
+    }
 }
