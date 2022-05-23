@@ -2,7 +2,7 @@ var products = [
     {
         productName: "Peluche Ariel",
         category: "peluches",
-        price: 18,
+        price: 1,
         image: "/images/ariel.jpg"
     },
     {
@@ -16,11 +16,21 @@ var products = [
         category: "peluches",
         price: 11,
         image: "/images/Peluche-Red.jpg"
-    }
+    },
+    {
+        productName: "Peluche Hércules",
+        category: "peluches",
+        price: 18,
+        image: "/images/hercules.jpg"
+    },
 ];
 console.table(products);
+
 let htmlProducts = "";
-let cartImage ="/images/basket.png"
+let cartImage ="/images/basket.png";
+let hortalizas = ["patatas", "zanahorias", "calabacines"];
+
+
 for (let i = 0; i < products.length; i++) {
     const product = products[i];
     htmlProducts += `
