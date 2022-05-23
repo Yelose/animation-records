@@ -1,9 +1,13 @@
-.container{
-    background-color: rgb(168, 197, 168);
-    width: auto;
-    height: 400px;  
-    position: relative;
-    font-size: 300px;
+.title-separator{
+    background-color: green;
+    padding: 2px;
+    justify-content: center;
     text-align: center;
-    padding-top: 200px;
+    margin: 5px;
 }
+
+h2 {
+    display: block;
+    font-size: 1.5px;
+    
+} 
