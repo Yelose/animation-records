@@ -14,13 +14,3 @@ function changeImageLike (imagen) {
     }
 
 }
-
-function changeImageLikeNew (imagen) {
-    
-    if (likeimagen.src = imagen.src) {
-        likeimagen.src = "/images/like-icon-0.png"
-    }
-
-}
-
-

@@ -7,6 +7,10 @@
     margin: 3%;
 }
 
+.title-product {
+    margin-left: 10%;
+}
+
 #product {
     display:flex;
     flex-flow: wrap row;
@@ -90,7 +94,8 @@ aside {
 
 #button-shop {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     margin: 10%;
 }
 
@@ -99,9 +104,14 @@ aside {
     border-radius: 50px;
     background-color: transparent;
     border-color:grey;
-    padding:4%;
+    padding:7%;
     justify-content: center;
     box-shadow: black 0px 4px 4px ;
+}
+
+.shop-basket {
+    width:10%;
+    margin-right:3%;
 }
 
 .title-recommended {
