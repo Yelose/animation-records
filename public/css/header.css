@@ -3,14 +3,26 @@
   padding: 0;
 }
 
+.h1 {
+  font-family: "Cabin Sketch";
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  font-family: "Rum Raisin", sans-serif;
+}
+
 header {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
 }
-header .half-width {
+header justify-content:space-between .half-width {
   width: 40%;
+  justify-content: flex-start;
 }
 header section {
   display: flex;
@@ -23,13 +35,8 @@ header section h1 {
   margin-top: 5%;
   font-size: 150%;
 }
-header section .logo {
-  width: 12%;
-  height: 12%;
-}
 
 .cesta-menu button {
-  justify-content: center;
   border-radius: 5px;
   font-family: sans-serif;
   border: none;
@@ -37,10 +44,12 @@ header section .logo {
 }
 .cesta-menu .home {
   width: 20%;
+  height: 20%;
   background-color: #FFA3A3;
 }
 .cesta-menu .categorias {
   width: 20%;
+  height: 20%;
   background-color: #f6df4c;
 }
 
