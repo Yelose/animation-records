@@ -26,13 +26,13 @@ header justify-content:space-between .half-width {
 }
 header section {
   display: flex;
+  align-items: center;
   width: 100%;
   font-family: "Cabin Sketch";
   font-size: clamp(12px, 2vw, 20px);
   justify-content: space-evenly;
 }
 header section h1 {
-  margin-top: 5%;
   font-size: 150%;
 }
 
