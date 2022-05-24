@@ -1,40 +1,43 @@
 var products = [
-    {
-        productName: "Peluche Ariel",
-        category: "peluches",
-        price: 1,
-        image: "/images/ariel.jpg"
-    },
-    {
-        productName: "Peluche Dama",
-        category: "peluches",
-        price: 18,
-        image: "/images/dama.jpg"
-    },
-    {
-        productName: "Peluche Panda Rojo",
-        category: "peluches",
-        price: 11,
-        image: "/images/Peluche-Red.jpg"
-    },
-    {
-        productName: "Peluche Hércules",
-        category: "peluches",
-        price: 18,
-        image: "/images/hercules.jpg"
-    },
+  {
+    productName: "Peluche Ariel",
+    category: "peluches",
+    price: 1,
+    image: "/images/ariel.jpg",
+    url: "",
+  },
+  {
+    productName: "Peluche Dama",
+    category: "peluches",
+    price: 18,
+    image: "/images/dama.jpg",
+  },
+  {
+    productName: "Peluche Panda Rojo",
+    category: "peluches",
+    price: 11,
+    image: "/images/Peluche-Red.jpg",
+    url: "product.html",
+  },
+  {
+    productName: "Peluche Hércules",
+    category: "peluches",
+    price: 18,
+    image: "/images/hercules.jpg",
+  },
 ];
 console.table(products);
 
 let htmlProducts = "";
-let cartImage ="/images/basket.png";
+let cartImage = "/images/basket.png";
 let hortalizas = ["patatas", "zanahorias", "calabacines"];
 
-
 for (let i = 0; i < products.length; i++) {
-    const product = products[i];
-    htmlProducts += `
-        <div class="product-container" style="background-image: url(${product.image})">
+  const product = products[i];
+  htmlProducts += `
+        <div class="product-container" style="background-image: url(${
+          product.image
+        })">
             <div class="product-name">${product.productName.toLowerCase()}</div>
             <div class="product-price">${product.price}€</div>
             <div class="buttons-add-to-cart">
@@ -43,6 +46,6 @@ for (let i = 0; i < products.length; i++) {
                 <p class"minus-remove-from-cart">-</p>
             </div>
         </div>
-    `
+    `;
 }
 document.querySelector(".gallery-products-show").innerHTML = htmlProducts;
