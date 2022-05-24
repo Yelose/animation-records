@@ -15,7 +15,7 @@
   flex-direction: column;
   align-items: center;
   background-color: hsla(47, 92%, 52%, 0.75);
-  z-index: 1000;
+  z-index: 10000;
 }
 .desplegable-categorias a {
   padding: 1.5vw;

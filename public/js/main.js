@@ -1,11 +1,9 @@
 var products = [
-<<<<<<< HEAD
   {
     productName: "Peluche Ariel",
     category: "peluches",
     price: 1,
     image: "/images/ariel.jpg",
-    url: "",
   },
   {
     productName: "Peluche Dama",
@@ -18,7 +16,7 @@ var products = [
     category: "peluches",
     price: 11,
     image: "/images/Peluche-Red.jpg",
-    url: "product.html",
+    url: "",
   },
   {
     productName: "Peluche Hércules",
@@ -26,57 +24,30 @@ var products = [
     price: 18,
     image: "/images/hercules.jpg",
   },
-=======
-    {
-        productName: "Peluche Ariel",
-        category: "peluches",
-        price: 1,
-        image: "/images/ariel.jpg"
-    },
-    {
-        productName: "Peluche Dama",
-        category: "peluches",
-        price: 18,
-        image: "/images/dama.jpg"
-    },
-    {
-        productName: "Peluche Panda Rojo",
-        category: "peluches",
-        price: 11,
-        image: "/images/Peluche-Red.jpg"
-    },
-    {
-        productName: "Peluche Hércules",
-        category: "peluches",
-        price: 18,
-        image: "/images/hercules.jpg"
-    },
-    {
-        productName: "Peluche Bella",
-        category: "peluches",
-        price: 12,
-        image: "/images/bella.jpg"
-    },
-    {
-        productName: "Peluche Goofy",
-        category: "peluches",
-        price: 18,
-        image: "/images/goofy.jpg"
-    },
-    {
-        productName: "Peluche Micky",
-        category: "peluches",
-        price: 14,
-        image: "/images/micky.jpg"
-    },
-    {
-        productName: "Peluche Donald",
-        category: "peluches",
-        price: 17,
-        image: "/images/donald.jpg"
-    },
-
->>>>>>> 674aed4a45dae1ca6abf4b472808e6b4cf3a2974
+  {
+    productName: "Peluche Bella",
+    category: "peluches",
+    price: 12,
+    image: "/images/bella.jpg",
+  },
+  {
+    productName: "Peluche Goofy",
+    category: "peluches",
+    price: 18,
+    image: "/images/goofy.jpg",
+  },
+  {
+    productName: "Peluche Micky",
+    category: "peluches",
+    price: 14,
+    image: "/images/micky.jpg",
+  },
+  {
+    productName: "Peluche Donald",
+    category: "peluches",
+    price: 17,
+    image: "/images/donald.jpg",
+  },
 ];
 console.table(products);
 
@@ -94,7 +65,8 @@ for (let i = 0; i < products.length; i++) {
             <div class="product-price">${product.price}€</div>
             <div class="buttons-add-to-cart">
                 <p class"plus-add-to-cart">+</p>
-                <img class="image-cart-in-product-gallery" src="${cartImage}">
+                <a>
+                <img class="image-cart-in-product-gallery" src="${cartImage}"></a>
                 <p class"minus-remove-from-cart">-</p>
             </div>
         </div>
