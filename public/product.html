@@ -27,15 +27,16 @@
 
     <section id="product">
         <section id ="imagen-product">
-            <img class="principal-imagen-product" src="/images/Peluche-Red.jpg">
-                <div class="images">
-                    <img class="imagen-product2" src="/images/Peluche-Turning-Red.jpg">
-                    <img class="imagen-product3"src="/images/Peluche-Red-2.jpg">
-                    <img class="imagen-product4"src="/images/Peluche-Red-3.jpg">
+            <img id="principal-imagen-product" src="/images/Peluche-Red.jpg">
+                <div class="images-product">
+                    <img class="imagen-product2" onclick="changeImage (this)" src="/images/Peluche-Turning-Red.jpg">
+                    <img class="imagen-product3" onclick="changeImage (this)" src="/images/Peluche-Red-2.jpg">
+                    <img class="imagen-product4" onclick="changeImage (this)" src="/images/Peluche-Red-3.jpg">
                 </div>
         </section>
 
     <aside id="info-product">
+        <section id="aside-description">
         <section class="title-product">
             <h3>Peluche Panda Rojo</h3>
         </section>
@@ -56,11 +57,14 @@
         
         <section class ="price-like">
             <p>11€</p>
-            <img src="">
+            <img id="like" onclick="changeImagenLike (this)" src="/images/like-icon-0.png">
         </section>
-        
+
+    </section>
+
         <section id="button-shop">
-            <button class="shop">Añade a la cesta</button>
+            
+            <button class="shop"><img class ="shop-basket" src="/images/basket.png">Añade a la cesta</button>
         </section>
 
     </aside>
@@ -78,5 +82,6 @@
         <img class="recommended4" src="/images/dumbo.jpg">
     </section>
 
+    <script src="/product.js/product.js"></script>
 </body>
 </html>
