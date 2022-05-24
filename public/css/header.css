@@ -6,43 +6,41 @@
 header {
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  margin: 2%;
   align-items: center;
+  justify-content: space-evenly;
+}
+header .half-width {
+  width: 40%;
 }
 header section {
+  display: flex;
   width: 100%;
   font-family: "Cabin Sketch";
-  font-size: clamp(14px, 2.5vw, 26px);
+  font-size: clamp(12px, 2vw, 20px);
   justify-content: space-evenly;
 }
 header section h1 {
-  margin-top: 2%;
-  font-size: larger;
+  margin-top: 5%;
+  font-size: 150%;
 }
 header section .logo {
-  width: 70px;
-  height: 70px;
+  width: 12%;
+  height: 12%;
 }
 
-.cesta-menu {
-  display: flex;
-  justify-content: space-evenly;
-}
 .cesta-menu button {
-  width: 98px;
-  height: 28px;
-  margin: 10px;
+  justify-content: center;
   border-radius: 5px;
   font-family: sans-serif;
-  font-weight: 600;
   border: none;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .cesta-menu .home {
+  width: 20%;
   background-color: #FFA3A3;
 }
 .cesta-menu .categorias {
+  width: 20%;
   background-color: #f6df4c;
 }
 
