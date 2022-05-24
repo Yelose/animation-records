@@ -5,13 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Galería de productos</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/public/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Rum+Raisin&display=swap"
       rel="stylesheet"
     />
+    <script src="/public/js/main.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <main>
+    <section class="mi-cesta">
+      <h3>Mi cesta</h3>
+      <section>
+        <div class="cesta-producto">
+          <article class="linea-articulo-cesta">
+            <div class="cesta-imagen-nombre-precio-producto">
+              <div class="cesta-imagen-producto dama"></div>
+              <div class="cesta-nombre-producto">
+                <p>Peluche Dama</p>
+              </div>
+              <div class="cesta-precio-producto">
+                <p>18€</p>
+              </div>
+            </div>
+            <div class="cesta-cantidad-producto">
+              <p>cantidad</p>
+              <p>2</p>
+            </div>
+            <div class="cesta-subtotal-producto">
+              <p>subtotal</p>
+              <p>36€</p>
+            </div>
+          </article>
+          <article class="linea-articulo-cesta">
+            <div class="cesta-imagen-nombre-precio-producto">
+              <div class="cesta-imagen-producto rata"></div>
+              <div class="cesta-nombre-producto">
+                <p>Peluche Rata</p>
+              </div>
+              <div class="cesta-precio-producto">
+                <p>12€</p>
+              </div>
+            </div>
+            <div class="cesta-cantidad-producto">
+              <p>cantidad</p>
+              <div class="cesta-cantidad">
+                <p>1</p>
+              </div>
+            </div>
+            <div class="cesta-subtotal-producto">
+              <p>subtotal</p>
+              <div class="cesta-subtotal-precio">
+                <p>12€</p>
+              </div>
+            </div>
+          </article>
+          <article class="linea-articulo-cesta">
+            <div class="cesta-imagen-nombre-precio-producto">
+              <div class="cesta-imagen-producto ariel"></div>
+              <div class="cesta-nombre-producto"><p>Peluche Ariel</p></div>
+              <div class="cesta-precio-producto">18€</div>
+            </div>
+            <div class="cesta-cantidad-producto">
+              <p>cantidad</p>
+              <div class="cesta-cantidad">1</div>
+            </div>
+            <div class="cesta-subtotal-producto">
+              <p>subtotal</p>
+              <div class="cesta-subtotal-precio">18€</div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <h3 class="cesta-total-contenedor">
+        Total: <span class="cesta-total-precio">66€</span>
+      </h3>
+    </section>
+    <section class="gallery-products-show">
+  </main>
+  </body>
 </html>

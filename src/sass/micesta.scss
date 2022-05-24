@@ -1,0 +1,107 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+.mi-cesta {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 70%;
+    max-width: 800px;
+    min-width: 350px;
+    h3 {
+    background-color: #F49FB6;
+    padding: 1vh 4vw;
+    }
+    section {
+        background-color: #E9FFE8;
+        .cesta-producto {
+            article {
+                margin: 1vh 2vw;
+                background-color: white;
+                display: flex;
+                justify-content: space-around;
+                .cesta-imagen-nombre-precio-producto {
+                    flex-basis: 50%;
+                    gap: 1vw;
+                    justify-content: space-between;
+                }
+                div {
+                    display: flex;
+                    align-items: center;
+                    .cesta-imagen-producto {
+                        width: 50px;
+                        height: 50px;
+                        background-position: center;
+                        background-size: cover;                
+                   }
+                   .cesta-nombre-producto {
+                       flex-basis: 40%;
+                       justify-content: flex-end;
+                       
+                   }
+                }
+                .cesta-cantidad-producto {
+                       gap: 1vw;
+                }
+                .cesta-subtotal-producto {
+                    gap: 1vw;
+                }
+
+            }
+        }
+    }
+}
+}
+.dama {
+    background-image: url(/images/dama.jpg);
+}
+.rata {
+    background-image: url(/images/ratatouille.jpg);
+}
+.ariel {
+    background-image: url(/images/ariel.jpg);
+}
+.gallery-products-show {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+
+    .product-container{
+        display: flex;
+        flex-flow: column wrap;
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        margin: 2vh 2vw;
+        justify-content: space-between;
+        align-items: center;
+        background-position: center;
+        background-size: cover;
+        .product-name{
+            text-transform: capitalize;
+            display: none;
+        }
+        .product-price {
+            font-size: 1vw;
+            align-self: flex-end;
+            padding: 1vh 1vw;
+            font-size: 2vw;
+            font-weight: bold;
+        }
+        .buttons-add-to-cart {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            height: 50px;
+            background-color: rgba(255, 255, 255, 0.5);
+            .image-cart-in-product-gallery{
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+}
