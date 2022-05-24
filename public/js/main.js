@@ -35,4 +35,4 @@ for (let i = 0; i < products.length; i++) {
         </div>
     `
 }
-document.querySelector(".gallery-products-show").innerHTML = htmlProducts;
+document.querySelector(".gallery-products-show").innerHTML = htmlProducts;git addEventListener.
