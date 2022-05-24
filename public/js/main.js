@@ -23,6 +23,31 @@ var products = [
         price: 18,
         image: "/images/hercules.jpg"
     },
+    {
+        productName: "Peluche Bella",
+        category: "peluches",
+        price: 12,
+        image: "/images/bella.jpg"
+    },
+    {
+        productName: "Peluche Goofy",
+        category: "peluches",
+        price: 18,
+        image: "/images/goofy.jpg"
+    },
+    {
+        productName: "Peluche Micky",
+        category: "peluches",
+        price: 14,
+        image: "/images/micky.jpg"
+    },
+    {
+        productName: "Peluche Donald",
+        category: "peluches",
+        price: 17,
+        image: "/images/donald.jpg"
+    },
+
 ];
 console.table(products);
 
