@@ -6,17 +6,16 @@
 header {
   width: 100%;
   display: flex;
-  justify-content: space-between;
   margin: 2%;
-  align-items: center;
 }
 header section {
+  display: flex;
   width: 100%;
   font-family: "Cabin Sketch";
   font-size: clamp(14px, 2.5vw, 26px);
-  justify-content: space-evenly;
 }
 header section h1 {
+  margin-left: 20px;
   margin-top: 2%;
   font-size: larger;
 }
@@ -26,6 +25,7 @@ header section .logo {
 }
 
 .cesta-menu {
+  display: flex;
   justify-content: space-evenly;
 }
 .cesta-menu button {
@@ -37,7 +37,7 @@ header section .logo {
   border: none;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.cesta-menu .btn-cesta {
+.cesta-menu .cesta {
   border: none;
   width: 30px;
   height: 30px;
@@ -46,7 +46,22 @@ header section .logo {
   background-color: #FFA3A3;
 }
 .cesta-menu .categorias {
-  background-color: #f6df4c;
+  background-color: #f6d724;
+  cursor: pointer;
+}
+
+.categorias:hover {
+  font-size: medium;
+}
+
+.mostrar {
+  margin-left: 0;
+}
+
+ul {
+  width: 50%;
+  background-color: rgba(246, 215, 36, 0.3568627451);
+  transition: all 0.5s;
 }
 
 /*# sourceMappingURL=header.css.map */
