@@ -114,18 +114,20 @@ let hortalizas = ["patatas", "zanahorias", "calabacines"];
 for (let i = 0; i < products.length; i++) {
   const product = products[i];
   htmlProducts += `
-        <a href="${product.url}" class="product-container" style="background-image: url(${
+        <div class="product-container" style="background-image: url(${
           product.image
         })">
-            <div class="product-name">${product.productName.toLowerCase()}</div>
-            <div class="product-price">${product.price}€</div>
+            <a class="link-to-detail-container" href="${product.url}">
+                <div class="product-name">${product.productName.toLowerCase()}</div>
+                <div class="product-price">${product.price}€</div>
+            </a>
             <div class="buttons-add-to-cart">
                 <p class"plus-add-to-cart">+</p>
                 
                 <img class="image-cart-in-product-gallery" src="${cartImage}">
                 <p class"minus-remove-from-cart">-</p>
             </div>
-        </a>
+        </div>
     `;
 }
 document.querySelector(".gallery-products-show").innerHTML = htmlProducts;
