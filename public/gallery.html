@@ -1,22 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+        <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Galería de productos</title>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"
+    defer
+  ></script>  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;700;800;900&family=Barlow:ital,wght@0,600;0,900;1,500&family=Comfortaa:wght@400;700&family=Fraunces:opsz,wght@9..144,900&family=Montserrat:wght@200;300;400&family=Open+Sans:wght@400;700&family=Oswald:wght@200;300;400&family=Poppins:wght@400;700&family=Public+Sans:wght@300;400&family=Righteous&family=Roboto+Slab:wght@300;400&family=Space+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Rum+Raisin&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/public/css/style.css">
+  <script src="js/desplegable.js" defer></script>
+  <title>Animation Records</title>
+  <link rel="stylesheet" href="css/desplegable.css">
+  <link rel="stylesheet" href="../public/css/style.css">
+
     <link rel="stylesheet" href="/public/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="../public/css/galeryproducts.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/desplegable.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Rum+Raisin&display=swap"
       rel="stylesheet"
     />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    crossorigin="anonymous"
+  />
+
     <script src="/public/js/main.js" defer></script>
+    <script src="/public/js/desplegable.js" defer></script>
   </head>
   <body>
+    <header>
+      <section class="half-width">
+          <img src="" alt="">
+          <img src="/images/Logo.png" alt="Animation Records Logo" class="logo">
+          <h1>ANIMATION RECORDS</h1>
+      </section>
+      <section class="desplegable-categorias" onclick="ocultarCategoriasDesplegable()">
+          <div>
+              <a href="">Moda</a>
+              <a href="">Regalos</a>
+              <a href="">Hogar</a>
+              <a href="gallery.html">Peluches</a>
+              <a href="">Papelería</a>
+              <a href="">Accesorios</a>
+          </div>
+      </section>
+      <section class="cesta-menu half-width">
+              <img class="cesta" src="/images/cesta.png" alt="">
+              <button class="home"><a href="index.html">Home</a></button>
+              <button class="categorias" onclick="mostrarCategoriasDesplegable()">Categorías</button>
+      </section>
+  </header>
+
     <main>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/images/Banner1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/banner2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/pixar-banner.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     <section class="mi-cesta">
       <h3>Mi cesta</h3>
       <section>
