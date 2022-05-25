@@ -5,16 +5,19 @@ function changeImage (imagen) {
 }
 
 
-let likeimagen = document.getElementById("like");
-
+var like = 0;
 
 function changeImagenLike (imagen) {
+
+    let likeimagen = document.getElementById("like");
     
-    if (likeimagen.src = imagen.src) {
-        likeimagen.src = "/images/like-icon-0pink.png"
+    if (like==1) {
+        likeimagen.src = "/images/like-icon-0pink.png";
+        like=0;
     }
 
     else {
-        likeimagen.src = document.getElementById("like").innerHTML;
+        likeimagen.src = "/images/like-icon-0.png";
+        like=1;
     }
 }
