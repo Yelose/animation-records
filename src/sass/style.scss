@@ -1,5 +1,11 @@
-
 @import 'product.scss';
 @import 'header.scss';
 @import "micesta.scss";
 @import 'slide.scss';
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}

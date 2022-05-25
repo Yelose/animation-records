@@ -1,13 +1,15 @@
 .categories-display {
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: calc(10vw - 300px);
 }
 .categories-display div {
   display: flex;
   flex-flow: column wrap;
-  flex-basis: 25%;
+  flex-basis: 26%;
   justify-content: center;
   align-items: center;
   padding: 3vw;
@@ -21,16 +23,6 @@
 .categories-display div p {
   font-family: "Rum Raisin", sans-serif;
   font-size: clamp(20px, 4vw, 36px);
-}
-
-@media only screen and (max-width: 600px) {
-  .categories-display div {
-    flex-basis: 80%;
-  }
-  .categories-display div img {
-    width: 80%;
-    height: 80%;
-  }
 }
 
 /*# sourceMappingURL=categories.css.map */
