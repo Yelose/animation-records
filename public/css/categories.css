@@ -3,11 +3,13 @@
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  max-width: 1300px;
 }
 .categories-display div {
   display: flex;
   flex-flow: column wrap;
   flex-basis: 25%;
+  max-width: 400px;
   justify-content: center;
   align-items: center;
   padding: 3vw;
@@ -25,7 +27,7 @@
 
 @media only screen and (max-width: 600px) {
   .categories-display div {
-    flex-basis: 80%;
+    flex-basis: 45%;
   }
   .categories-display div img {
     width: 80%;

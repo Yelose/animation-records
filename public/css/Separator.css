@@ -8,6 +8,16 @@
     justify-content: center;
     margin-top: 1vh;
 }
-.tittle-separador form{
-    margin-top: 20vh;
+.title-separador form{
+    margin-top: 15vh;
+}
+@media only screen and (max-width: 600px) {
+.title-separator{
+    height: 100px;
+}
+h2 {
+    padding: 1vh;
+    text-align: center;
+}
+
 }
