@@ -15,15 +15,17 @@ a {
     font-family: 'Rum Raisin', sans-serif;
    }
    header{
+       min-width: 200px;
        margin-left: 10%;
        width: 100%;
        display:flex;
        align-items: center;
+       justify-content: center;
        
-               .logo{
-                   width: 10%;
+        .logo{
+            width: 10%;
                }
-          section {
+          section{
                 align-items: center;
                 display: flex;
                 width: 100%;
@@ -38,9 +40,7 @@ a {
           
        .cesta-menu{
            
-          
-            button{
-                
+            button{ 
                 border-radius: 5px;
                 font-family:sans-serif;
                 border:none;
@@ -49,12 +49,12 @@ a {
                     
                         .home{
                             
-                            width: 15%;
+                            padding: 0px 25px;
                             background-color:#FFA3A3;  
                             }
                         .categorias{ 
                             margin-left: 2%;
-                             width: 15%;
+                            padding: 0px 10px;
                              background-color:#f6df4c;  
                             }
                         }
