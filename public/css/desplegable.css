@@ -1,0 +1,30 @@
+.desplegable-categorias {
+  display: none;
+  justify-content: flex-end;
+  align-items: baseline;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+}
+.desplegable-categorias div {
+  margin: 5vw;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsla(47, 92%, 52%, 0.75);
+  z-index: 10000;
+}
+.desplegable-categorias a {
+  padding: 1.5vw;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .desplegable-categorias div {
+    width: 90vw;
+    justify-self: center;
+  }
+}

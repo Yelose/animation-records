@@ -6,7 +6,7 @@
    header{
        width: 100%;
        display:flex;
-       margin: 2%;
+       align-items: center;
 
        section{
           display: flex;
@@ -19,32 +19,63 @@
                     margin-left: 20px;
                     margin-top: 2%;
                     font-size: larger; 
+a {
+    text-decoration: none;
+}
+   .h1{
+       font-family:'Cabin Sketch';    
+   }
+   button{
+    font-family: 'Roboto', sans-serif;
+   }
+   h2{
+    font-family: 'Rum Raisin', sans-serif;
+   }
+   header{
+       width: 100%;
+       display:flex;
+       align-items: center;
+       justify-content:space-between
+      
+          
+       }
+       section{
+           display: flex;
+           width: 100%;
+           font-family: 'Cabin Sketch';
+           font-size: clamp(12px, 2.0vw, 20px);
+           justify-content: space-evenly;
+            
+                h1{
+                    margin-top: 5%;
+                    font-size: 150%;
+                   
                 }
-                .logo{
-                    width: 70px;
-                    height: 70px;
-                    }
+              
             }       
        }     
        .cesta-menu{ 
         display: flex;
         justify-content: space-evenly;
         
+       .cesta-menu{
+                
             button{
-                width:98px;
-                height: 28px;
+                
                 border-radius: 5px;
                 font-family:sans-serif;
-                font-weight: 600;
                 border:none;
-                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                filter: drop-shadow(0px 4px 4px rgba(248, 237, 237, 0.25));
                 }
                     .cesta{
                         border: none;
                         width: 30px;
                         height: 30px;
                     }
+                    
                         .home{
+                            width: 20%;
+                            height: 20%;
                             background-color:#FFA3A3;  
                             }
                         .categorias{ 
@@ -65,4 +96,11 @@
                             background-color: #f6d7245b;
                             transition: all 0.5s;
                             
+                            width: 20%;
+                            height: 20%;
+                             background-color:#f6df4c;  
+                            }
                         }
+                    }
+                    }
+                        
