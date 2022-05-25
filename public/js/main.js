@@ -104,6 +104,30 @@ var products = [
         image: "/images/donald.jpg",
         url: "underconstruction.html"
     },
+    {
+        productName: "Donald",
+        category: "peluches",
+        price: 18,
+        image: "/images/donald.jpg"
+    },
+    {
+        productName: "goofy",
+        category: "peluches",
+        price: 13,
+        image: "/images/goofy.jpg"
+    },
+    {
+        productName: "Mini",
+        category: "peluches",
+        price: 18,
+        image: "/images/mini.jpg"
+    },
+    {
+        productName: "vaiana",
+        category: "peluches",
+        price: 16,
+        image: "/images/vaiana.jpg"
+    },
 ];
 console.table(products);
 
