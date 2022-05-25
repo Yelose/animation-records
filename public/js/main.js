@@ -2,10 +2,6 @@ var products = [
     {
         productName: "Peluche Red Panda",
         category: "peluches",
-<<<<<<< HEAD
-        price: 18,
-        image: "/images/ariel.jpg"
-=======
         price: 11,
         image: "/images/Peluche-red.jpg",
         url: "product.html"
@@ -23,7 +19,6 @@ var products = [
         price: 11,
         image: "/images/dory.png",
         url: "underconstruction.html"
->>>>>>> 1452efc37800b87ca390cfb094cd1501601efb60
     },
     {
         productName: "Peluche Dama",
@@ -35,10 +30,6 @@ var products = [
     {
         productName: "Peluche Hércules",
         category: "peluches",
-<<<<<<< HEAD
-        price: 14,
-        image: "/images/hercules.jpg"
-=======
         price: 18,
         image: "/images/hercules.jpg",
         url: "underconstruction.html"
@@ -112,7 +103,6 @@ var products = [
         price: 31,
         image: "/images/donald.jpg",
         url: "underconstruction.html"
->>>>>>> 1452efc37800b87ca390cfb094cd1501601efb60
     },
     {
         productName: "Donald",
