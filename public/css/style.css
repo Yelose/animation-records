@@ -153,10 +153,17 @@ header {
   width: 100%;
   display: flex;
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: 2%;
 =======
+=======
+>>>>>>> 1452efc37800b87ca390cfb094cd1501601efb60
   align-items: center;
 >>>>>>> 1452efc37800b87ca390cfb094cd1501601efb60
+}
+header justify-content:space-between .half-width {
+  width: 40%;
+  justify-content: flex-start;
 }
 header justify-content:space-between .half-width {
   width: 40%;
@@ -166,6 +173,7 @@ header section {
   display: flex;
   width: 100%;
   font-family: "Cabin Sketch";
+<<<<<<< HEAD
 <<<<<<< HEAD
   font-size: clamp(14px, 2.5vw, 26px);
 }
@@ -193,12 +201,23 @@ header section h1 {
 }
 
 >>>>>>> 1452efc37800b87ca390cfb094cd1501601efb60
+=======
+  font-size: clamp(12px, 2vw, 20px);
+  justify-content: space-evenly;
+}
+header section h1 {
+  margin-top: 5%;
+  font-size: 150%;
+}
+
+>>>>>>> 1452efc37800b87ca390cfb094cd1501601efb60
 .cesta-menu button {
   border-radius: 5px;
   font-family: sans-serif;
   border: none;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .cesta-menu .cesta {
   border: none;
@@ -207,12 +226,15 @@ header section h1 {
 }
 =======
 >>>>>>> 1452efc37800b87ca390cfb094cd1501601efb60
+=======
+>>>>>>> 1452efc37800b87ca390cfb094cd1501601efb60
 .cesta-menu .home {
   width: 20%;
   height: 20%;
   background-color: #FFA3A3;
 }
 .cesta-menu .categorias {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #f6d724;
   cursor: pointer;
@@ -231,10 +253,17 @@ ul {
   background-color: rgba(246, 215, 36, 0.3568627451);
   transition: all 0.5s;
 =======
+=======
+>>>>>>> 1452efc37800b87ca390cfb094cd1501601efb60
   width: 20%;
   height: 20%;
   background-color: #f6df4c;
 >>>>>>> 1452efc37800b87ca390cfb094cd1501601efb60
+}
+
+.cesta {
+  height: 30px;
+  width: 30px;
 }
 
 .cesta {
