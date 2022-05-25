@@ -162,7 +162,7 @@ header .logo {
 header section {
   align-items: center;
   display: flex;
-  width: 50%;
+  width: 100%;
   font-family: "Cabin Sketch";
   font-size: clamp(12px, 2vw, 20px);
 }
