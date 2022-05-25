@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   background: white;
+  width: 90vw;
   margin: auto;
   overflow: hidden;
   position: relative;
@@ -31,13 +32,9 @@
 }
 
 .slider .slide-track {
-  animation: scroll 80s linear infinite;
+  animation: scroll 120s linear infinite;
   display: flex;
-  width: 4500px;
-}
-
-.slider .slide-track:hover {
-  animation-play-state: paused;
+  width: 250vw;
 }
 
 .slider .slide {
@@ -46,7 +43,7 @@
 }
 
 .slide-img {
-  width: 100%;
+  width: 60vw;
 }
 
 @keyframes scroll {

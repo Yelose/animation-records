@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     background: white;
+    width: 90vw;
     margin: auto;
     overflow: hidden;
     position: relative;
@@ -16,6 +17,7 @@
     position: absolute;
     width: 100px;
     z-index: 2;
+
 }
 
 .slider::after {
@@ -31,14 +33,11 @@
 }
 
 .slider .slide-track {
-    animation: scroll 80s linear infinite;
-    display: flex;
-    width: calc(250px * 18);
+        animation: scroll 120s linear infinite;
+        display: flex;
+        width: 250vw;
 
-}
 
-.slider .slide-track:hover {
-    animation-play-state: paused;
 }
 
 .slider .slide {
@@ -47,7 +46,7 @@
 }
 
 .slide-img {
-    width:100%;
+    width:60vw;
 }
 
 @keyframes scroll {
