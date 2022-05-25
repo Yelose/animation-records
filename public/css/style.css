@@ -2,10 +2,7 @@
   margin: 0;
   padding: 0;
 }
-a { 
-  text-decoration: none !important;
-  color: black !important;
-}
+
 .title-product, .recommended-products {
   margin: 3%;
 }
@@ -135,6 +132,10 @@ aside {
 * {
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 .h1 {

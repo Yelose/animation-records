@@ -1,0 +1,26 @@
+.categories-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.categories-display div {
+  display: flex;
+  flex-flow: column wrap;
+  flex-basis: 25%;
+  justify-content: center;
+  align-items: center;
+  padding: 3vw;
+}
+.categories-display div img {
+  width: 30vw;
+  height: 30vw;
+  max-width: 300px;
+  max-height: 300px;
+}
+.categories-display div p {
+  font-family: "Rum Raisin", sans-serif;
+  font-size: clamp(20px, 4vw, 36px);
+}
+
+/*# sourceMappingURL=categories.css.map */
