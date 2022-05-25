@@ -2,6 +2,10 @@ var products = [
     {
         productName: "Peluche Red Panda",
         category: "peluches",
+<<<<<<< HEAD
+        price: 18,
+        image: "/images/ariel.jpg"
+=======
         price: 11,
         image: "/images/Peluche-red.jpg",
         url: "product.html"
@@ -19,6 +23,7 @@ var products = [
         price: 11,
         image: "/images/dory.png",
         url: "underconstruction.html"
+>>>>>>> 1452efc37800b87ca390cfb094cd1501601efb60
     },
     {
         productName: "Peluche Dama",
@@ -30,6 +35,10 @@ var products = [
     {
         productName: "Peluche Hércules",
         category: "peluches",
+<<<<<<< HEAD
+        price: 14,
+        image: "/images/hercules.jpg"
+=======
         price: 18,
         image: "/images/hercules.jpg",
         url: "underconstruction.html"
@@ -103,6 +112,31 @@ var products = [
         price: 31,
         image: "/images/donald.jpg",
         url: "underconstruction.html"
+>>>>>>> 1452efc37800b87ca390cfb094cd1501601efb60
+    },
+    {
+        productName: "Donald",
+        category: "peluches",
+        price: 18,
+        image: "/images/donald.jpg"
+    },
+    {
+        productName: "goofy",
+        category: "peluches",
+        price: 13,
+        image: "/images/goofy.jpg"
+    },
+    {
+        productName: "Mini",
+        category: "peluches",
+        price: 18,
+        image: "/images/mini.jpg"
+    },
+    {
+        productName: "vaiana",
+        category: "peluches",
+        price: 16,
+        image: "/images/vaiana.jpg"
     },
 ];
 console.table(products);
