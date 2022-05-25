@@ -23,20 +23,17 @@ a {
                .logo{
                    width: 10%;
                }
-       section{
-           
-           align-items: center;
-           display: flex;
-           width: 100%;
-           font-family: 'Cabin Sketch';
-           font-size: clamp(12px, 2.0vw, 20px);
+          section {
+                align-items: center;
+                display: flex;
+                width: 100%;
+                font-family: 'Cabin Sketch';
+                font-size: clamp(12px, 2.0vw, 20px);
       
                 h1{
                     margin-left: 2%;
-                    font-size: 150%;
-                   
+                    font-size: 150%; 
                 }
-              
             }       
           
        .cesta-menu{
