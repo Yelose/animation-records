@@ -23,4 +23,14 @@
   font-size: clamp(20px, 4vw, 36px);
 }
 
+@media only screen and (max-width: 600px) {
+  .categories-display div {
+    flex-basis: 80%;
+  }
+  .categories-display div img {
+    width: 80%;
+    height: 80%;
+  }
+}
+
 /*# sourceMappingURL=categories.css.map */
