@@ -16,6 +16,8 @@
   align-items: center;
   background-color: hsla(47, 92%, 52%, 0.75);
   z-index: 10000;
+  max-width: 300px;
+  min-width: 200px;
 }
 .desplegable-categorias a {
   padding: 1.5vw;
@@ -26,5 +28,6 @@
   .desplegable-categorias div {
     width: 90vw;
     justify-self: center;
+    max-width: 100%;
   }
 }
