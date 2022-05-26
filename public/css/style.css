@@ -146,8 +146,25 @@ header {
 
 .cesta-menu {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+}
+
+.home, .categorias {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.137);
+  border-radius: 5px;
+  padding: 5%;
+}
+
+.home {
+  background-color: #FFA3A3;
+  margin-right: 1%;
+  border-color: solid #FFA3A3;
+}
+
+.categorias {
+  background-color: #F5C312;
+  border-radius: solid #F5C312;
 }
 
 .mi-cesta {
