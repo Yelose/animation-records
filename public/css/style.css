@@ -385,11 +385,6 @@ header {
   font-size: clamp(20px, 4vw, 36px);
 }
 
-<<<<<<< HEAD
-a {
-  color: black;
-  text-decoration: none;
-=======
 footer {
   background-color: #66BD5F;
   padding: 2%;
@@ -401,6 +396,10 @@ footer {
 a {
   color: black;
   text-decoration: none;
+}
+
+h1 {
+  font-family: "Cabin Sketch", sans-serif;
 }
 
 form {
@@ -426,7 +425,6 @@ label {
   border: 1px solid #FFFFFF;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 2%;
->>>>>>> c0d8e4caca1dad0af33d5202c2a4ff30094ced2b
 }
 
 /*# sourceMappingURL=style.css.map */
