@@ -2,9 +2,10 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Animation Records</title>
+<<<<<<< HEAD
     <link rel="stylesheet" href="../public/css/style.css" />
     <link rel="stylesheet" href="../public/css/Separator.css">
   
@@ -15,13 +16,20 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+=======
+    <link rel="stylesheet" href="../public/css/style.css"/>
+    <link rel="stylesheet" href="../public/css/separator.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap" rel="stylesheet">
+>>>>>>> develop
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;700;800;900&family=Barlow:ital,wght@0,600;0,900;1,500&family=Comfortaa:wght@400;700&family=Fraunces:opsz,wght@9..144,900&family=Montserrat:wght@200;300;400&family=Open+Sans:wght@400;700&family=Oswald:wght@200;300;400&family=Poppins:wght@400;700&family=Public+Sans:wght@300;400&family=Righteous&family=Roboto+Slab:wght@300;400&family=Space+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Rum+Raisin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;700;800;900&family=Barlow:ital,wght@0,600;0,900;1,500&family=Comfortaa:wght@400;700&family=Fraunces:opsz,wght@9..144,900&family=Montserrat:wght@200;300;400&family=Open+Sans:wght@400;700&family=Oswald:wght@200;300;400&family=Poppins:wght@400;700&family=Public+Sans:wght@300;400&family=Righteous&family=Roboto+Slab:wght@300;400&family=Space+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/public/css/style.css">
     <script src="js/desplegable.js" defer></script>
-    <title>Animation Records</title>
     <link rel="stylesheet" href="css/desplegable.css">
-    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="../public/css/categories.css">
 </head>
 <body>
     <header>
@@ -31,12 +39,12 @@
         </section>
         <section class="desplegable-categorias" onclick="ocultarCategoriasDesplegable()">
             <div>
-                <a href="">Moda</a>
-                <a href="">Regalos</a>
-                <a href="">Hogar</a>
+                <a href="categoryunderconstruction.html">Moda</a>
+                <a href="categoryunderconstruction.html">Regalos</a>
+                <a href="categoryunderconstruction.html">Hogar</a>
                 <a href="gallery.html">Peluches</a>
-                <a href="">Papelería</a>
-                <a href="">Accesorios</a>
+                <a href="categoryunderconstruction.html">Papelería</a>
+                <a href="categoryunderconstruction.html">Accesorios</a>
             </div>
         </section>
         <section class="cesta-menu">
@@ -47,30 +55,71 @@
     </header>
 
     <main>
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="/images/Banner1.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="/images/banner2.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="/images/pixar-banner.jpg" class="d-block w-100" alt="...">
-          </div>
+      <section class="slider">
+        <div class="slide-track">
+            <div class="slide">
+              <img class="slide-img" src="/images/banner2.png" alt="" />
+            </div>
+            <div class="slide">
+              <img class="slide-img" src="/images/Banner1.png" alt="" />
+            </div>
+            <div class="slide">
+              <img class="slide-img" src="/images/pixar-banner.jpg" alt="" />
+            </div>
+            <div class="slide">
+              <img class="slide-img" src="/images/pixar-banner2.png" alt="" />
+            </div>
+            <div class="slide">
+              <img class="slide-img" src="/images/pixar-banner3.png" alt="" />
+            </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-
+      </section>
       <section class="title-separator">
         <h2>Descubre todas nuestras categorias de productos</h2>
+      </section>
+
+      </div>
+      <section class="categories-display">
+        <a href="categoryunderconstruction.html">
+          <div>
+            <img src="/images/Camiseta.jpg" alt="camiseta negra, categoría Moda">
+            <p>moda</p>
+          </div>
+          </a>
+          <a href="categoryunderconstruction.html">
+            <div>
+              <img src="/images/taza.jpg" alt="Taza con una casa y globitos, categoría Regalos">
+              <p>Regalos</p>
+            </div>
+            </a>
+          <a href="gallery.html">
+          <div>
+            <img src="/images/stitch.png" alt="Peluche Stitch, categoría peluches">
+            <p>Peluches</p>
+          </div>
+          </a>
+        <a href="categoryunderconstruction.html">
+          <div>
+            <img src="/images/minion.png" alt="Cajita con Minion, categoría juguetes">
+            <p>Juguetes</p>
+          </div>
+          </a>
+        <a href="categoryunderconstruction.html">
+          <div>
+            <img src="/images/estuche.png" alt="Estuche Monsters SA, categoría papelería">
+            <p>Papelería</p>
+          </div>
+          </a>
+        <a href="categoryunderconstruction.html">
+          <div>
+            <img src="/images/gafas-de-sol-toy-story-buzz-lightyear.jpg" alt="">
+            <p>Accesorios</p>
+          </div>
+          </a>
+      </section>
+
+      <section class="title-separator">
+        <h2>Suscríbete a nuestra NewsLetter</h2>
         <form>  
           <label for="">Suscribirse</label>
           <input type="email" placeholder="email">

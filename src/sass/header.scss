@@ -5,8 +5,10 @@
 a {
     text-decoration: none;
    }
-   .h1{
-    font-family:'Cabin Sketch';    
+   h1{
+      
+       margin-left: 3%;
+           
    }
    button{
     font-family: 'Roboto', sans-serif;
@@ -15,51 +17,47 @@ a {
     font-family: 'Rum Raisin', sans-serif;
    }
    header{
-       min-width: 200px;
-       margin:2% 15%;
+      padding-left: 10%;
        width: 100%;
        display:flex;
        align-items: center;
-       justify-content: center;
+       min-width: 980px;
        
-        section{
-            align-items: center;
-            display: flex;
-            width: 100%;
-            font-family: 'Cabin Sketch';
-            font-size: clamp(12px, 2.0vw, 20px);
-                .logo{
-                    width: 10%;
-                    }
-                h1{
-                    margin-left: 2%;
-                    font-size: 150%; 
-                    }
-        }        
+               .logo{
+                   width: 10%;
+                   min-width: 80px;
+               }
+          section{
+                align-items: center;
+                display: flex;
+                width: 100%;
+                font-family: 'Cabin Sketch';
+            }       
+          
        .cesta-menu{
-        flex-wrap: wrap;
-
-            button{ 
+           
+            button{
                 border-radius: 5px;
                 font-family:sans-serif;
                 height: 25px;
                 border:none;
                 filter: drop-shadow(0px 4px 4px rgba(248, 237, 237, 0.25));
                 }
-                .cesta{
-                    margin-right: 3%;
-                    height: 30px;
-                    width: 30px;   
-                } 
-                .home{        
-                    padding: 0px 25px;
-                    background-color:#FFA3A3;  
-                    }
-                .categorias{ 
-                    margin-left: 3%;
-                    padding: 0px 10px;
-                    background-color:#f6df4c;  
+                    
+                        .home{ 
+                            padding:4px 28px;
+                            background-color:#FFA3A3;  
                             }
+                        .categorias{ 
+                            margin-left: 2%;
+                            padding:4px 8px;
+                            background-color:#f6df4c;  
+                            }
+                        }
+                        .cesta{
+                            
+                            margin-right: 2%;
+                            height: 30px;
+                            width: 30px;   
+                        }
                     }
-                       
-        }
