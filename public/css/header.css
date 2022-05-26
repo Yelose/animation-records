@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .h1 {
   font-family: "Cabin Sketch";
 }
@@ -16,44 +20,47 @@ h2 {
 }
 
 header {
+  min-width: 200px;
+  margin: 2% 15%;
   width: 100%;
   display: flex;
   align-items: center;
-}
-header justify-content:space-between .half-width {
-  width: 40%;
-  justify-content: flex-start;
+  justify-content: center;
 }
 header section {
-  display: flex;
   align-items: center;
+  display: flex;
   width: 100%;
   font-family: "Cabin Sketch";
   font-size: clamp(12px, 2vw, 20px);
-  justify-content: space-evenly;
 }
-
-.cesta-menu {
-  flex-wrap: wrap;
+header section .logo {
+  width: 10%;
 }
-.cesta-menu button {
+header section h1 {
+  margin-left: 2%;
+  font-size: 150%;
+}
+header .cesta-menu button {
   border-radius: 5px;
   font-family: sans-serif;
+  height: 25px;
   border: none;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 4px rgba(248, 237, 237, 0.25));
 }
-.cesta-menu .home {
-  padding: 5px 40px;
-  background-color: #FFA3A3;
-}
-.cesta-menu .categorias {
-  padding: 5px 20px;
-  background-color: #f6df4c;
-}
-
-.cesta {
+header .cesta-menu .cesta {
+  margin-right: 3%;
   height: 30px;
   width: 30px;
+}
+header .cesta-menu .home {
+  padding: 0px 25px;
+  background-color: #FFA3A3;
+}
+header .cesta-menu .categorias {
+  margin-left: 3%;
+  padding: 0px 10px;
+  background-color: #f6df4c;
 }
 
 /*# sourceMappingURL=header.css.map */
