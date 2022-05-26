@@ -1,11 +1,15 @@
+@media only screen and (max-width: 600px) {
+    .slider-img {
+        visibility: hidden;
+    }
+}
+
 .slider {
     align-items: center;
-    background: #fff;
+    background-color: white;
     display: flex;
     justify-content: center;
-    background: white;
     width: 90vw;
-    overflow: hidden;
     position: relative;
     height: calc(60vh - 3vw);
 }
@@ -54,3 +58,4 @@
         transform: translateX(calc(-250px * 9));
     }
 }
+
