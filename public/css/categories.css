@@ -1,15 +1,24 @@
 .categories-display {
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+<<<<<<< HEAD
   max-width: 1300px;
+=======
+  padding: calc(10vw - 300px);
+>>>>>>> marina
 }
 .categories-display div {
   display: flex;
   flex-flow: column wrap;
+<<<<<<< HEAD
   flex-basis: 25%;
   max-width: 400px;
+=======
+  flex-basis: 26%;
+>>>>>>> marina
   justify-content: center;
   align-items: center;
   padding: 3vw;
@@ -25,6 +34,7 @@
   font-size: clamp(20px, 4vw, 36px);
 }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 600px) {
   .categories-display div {
     flex-basis: 45%;
@@ -35,4 +45,6 @@
   }
 }
 
+=======
+>>>>>>> marina
 /*# sourceMappingURL=categories.css.map */

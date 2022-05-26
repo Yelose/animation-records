@@ -151,7 +151,7 @@ h2 {
 }
 
 header {
-  margin-left: 10%;
+  padding-left: 10%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -188,55 +188,49 @@ header .cesta {
   width: 30px;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100vw;
-}
-main .mi-cesta {
+.mi-cesta {
   display: flex;
   flex-flow: column nowrap;
   width: 70%;
   max-width: 800px;
   min-width: 350px;
 }
-main .mi-cesta h3 {
+.mi-cesta h3 {
   background-color: #F49FB6;
   padding: 1vh 4vw;
 }
-main .mi-cesta section {
+.mi-cesta section {
   background-color: #E9FFE8;
 }
-main .mi-cesta section .cesta-producto article {
+.mi-cesta section .cesta-producto article {
   margin: 1vh 2vw;
   background-color: white;
   display: flex;
   justify-content: space-around;
 }
-main .mi-cesta section .cesta-producto article .cesta-imagen-nombre-precio-producto {
+.mi-cesta section .cesta-producto article .cesta-imagen-nombre-precio-producto {
   flex-basis: 50%;
   gap: 1vw;
   justify-content: space-between;
 }
-main .mi-cesta section .cesta-producto article div {
+.mi-cesta section .cesta-producto article div {
   display: flex;
   align-items: center;
 }
-main .mi-cesta section .cesta-producto article div .cesta-imagen-producto {
+.mi-cesta section .cesta-producto article div .cesta-imagen-producto {
   width: 50px;
   height: 50px;
   background-position: center;
   background-size: cover;
 }
-main .mi-cesta section .cesta-producto article div .cesta-nombre-producto {
+.mi-cesta section .cesta-producto article div .cesta-nombre-producto {
   flex-basis: 40%;
   justify-content: flex-end;
 }
-main .mi-cesta section .cesta-producto article .cesta-cantidad-producto {
+.mi-cesta section .cesta-producto article .cesta-cantidad-producto {
   gap: 1vw;
 }
-main .mi-cesta section .cesta-producto article .cesta-subtotal-producto {
+.mi-cesta section .cesta-producto article .cesta-subtotal-producto {
   gap: 1vw;
 }
 
@@ -295,6 +289,43 @@ main .mi-cesta section .cesta-producto article .cesta-subtotal-producto {
   height: 40px;
 }
 
+@media only screen and (max-width: 600px) {
+  .mi-cesta {
+    width: 90%;
+  }
+  .mi-cesta h3 {
+    padding: 1vh 10vw;
+  }
+  .mi-cesta section .cesta-producto article {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0 5vw;
+  }
+  .mi-cesta section .cesta-producto article .cesta-imagen-nombre-precio-producto {
+    flex-basis: 100%;
+    justify-content: center;
+  }
+  .mi-cesta section .cesta-producto article div {
+    display: flex;
+    align-items: center;
+  }
+  .mi-cesta section .cesta-producto article div .cesta-imagen-producto {
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-size: cover;
+  }
+  .mi-cesta section .cesta-producto article div .cesta-nombre-producto {
+    flex-basis: 40%;
+    justify-content: space-between;
+  }
+  .mi-cesta section .cesta-producto article .cesta-cantidad-producto {
+    margin-left: 60px;
+  }
+  .mi-cesta section .cesta-producto article .cesta-subtotal-producto {
+    gap: 1vw;
+  }
+}
 .slider {
   align-items: center;
   background: #fff;
@@ -350,6 +381,16 @@ main .mi-cesta section .cesta-producto article .cesta-subtotal-producto {
   100% {
     transform: translateX(-2250px);
   }
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+a {
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
