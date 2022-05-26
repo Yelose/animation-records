@@ -1,0 +1,23 @@
+.title-separator{
+    width: 100%;
+    height: 30vh;
+    background-color: #eef7ed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1vh;
+}
+.title-separador form{
+    margin-top: 15vh;
+}
+@media only screen and (max-width: 600px) {
+.title-separator{
+    height: 100px;
+}
+h2 {
+    padding: 1vh;
+    text-align: center;
+}
+
+}
