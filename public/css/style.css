@@ -163,9 +163,6 @@ header section {
   font-size: clamp(12px, 2vw, 20px);
   justify-content: space-evenly;
 }
-header section h1 {
-  font-size: 150%;
-}
 
 .cesta-menu {
   flex-wrap: wrap;
