@@ -5,14 +5,15 @@
 @import 'categories.scss';
 @import 'footer.scss';
 
-
 a {
     color: black;
     text-decoration: none;
 }
 
-
-form {
+h1 {
+    font-family: 'Cabin Sketch', sans-serif;
+}
+    form {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -36,3 +37,4 @@ label {
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding:2%;
 }
+

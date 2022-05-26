@@ -400,6 +400,10 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-family: "Cabin Sketch", sans-serif;
+}
+
 form {
   display: flex;
   justify-content: space-around;
