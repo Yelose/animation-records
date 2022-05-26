@@ -20,28 +20,32 @@
   </head>
   <body>
     <header>
-      <a href="index.html" >
-        <section>
-          <img class="half-width" src="/images/Logo.png" alt="Animation Records Logo" class="logo">
+      <section class="logo-menu">
+        <div class ="logo-name">
+          <img src="/images/Logo.png" alt="Animation Records Logo" class="logo">
           <h1>ANIMATION RECORDS</h1>
-        </section>
-      </a>
+        </div>
+      </section>
+      
+      <section class="cesta-menu">
+        <p>Nº</p>
+        <img class="cesta" src="/images/cesta.png" alt="">
+        <button class="home">Home</button>
+        <button class="categorias" onclick="mostrarCategoriasDesplegable()">Categorías</button>
+      </section>
+      
       <section class="desplegable-categorias" onclick="ocultarCategoriasDesplegable()">
-          <div>
-              <a href="">Moda</a>
-              <a href="">Regalos</a>
-              <a href="">Hogar</a>
-              <a href="gallery.html">Peluches</a>
-              <a href="">Papelería</a>
-              <a href="">Accesorios</a>
-          </div>
+        <div>
+          <a href="categoryunderconstruction.html">Moda</a>
+          <a href="categoryunderconstruction.html">Regalos</a>
+          <a href="categoryunderconstruction.html">Hogar</a>
+          <a href="gallery.html">Peluches</a>
+          <a href="categoryunderconstruction.html">Papelería</a>
+          <a href="categoryunderconstruction.html">Accesorios</a>
+        </div>
       </section>
-      <section class="cesta-menu half-width">
-              <img class="cesta" src="/images/cesta.png" alt="">
-              <button class="home"><a href="index.html">Home</a></button>
-              <button class="categorias" onclick="mostrarCategoriasDesplegable()">Categorías</button>
-      </section>
-  </header>
+  
+    </header>
 
     <main>
       <section class="slider">

@@ -1,5 +1,5 @@
-@media only screen and (max-width: 600px) {
-  .slider {
+@media only screen and (max-width: 800px) {
+  .slider, .slide-track, .slider::after, .slider::before {
     display: none;
   }
 }
@@ -11,6 +11,8 @@
   width: 90vw;
   position: relative;
   height: calc(60vh - 3vw);
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 .slider::before, .slider::after {
