@@ -16,61 +16,86 @@
     <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Rum+Raisin&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="/public/css/style.css" />
+    <link rel="stylesheet" href="css/desplegable.css">
+    <script src="/public/js/desplegable.js" defer></script>
+   
     
     <title>Producto Detallado</title>
 </head>
 
 <body>
-
-<section id="all-product">
-
-        <section class="title-product">
-            <h2>Red Panda</h2>
+    <header>
+        <section class="logo-menu">
+            <img src="/images/Logo.png" alt="Animation Records Logo" class="logo">
+            <h1>ANIMATION RECORDS</h1>
         </section>
-
-    <section id="product">
-        <section id ="imagen-product">
-            <img id="principal-imagen-product" src="/images/Peluche-Red.jpg">
-                <div class="images-product">
-                    <img class="imagen-product2" onclick="changeImage (this)" src="/images/Peluche-Turning-Red.jpg">
-                    <img class="imagen-product3" onclick="changeImage (this)" src="/images/Peluche-Red-2.jpg">
-                    <img class="imagen-product4" onclick="changeImage (this)" src="/images/Peluche-Red-3.jpg">
-                </div>
+        <section class="desplegable-categorias" onclick="ocultarCategoriasDesplegable()">
+            <div>
+                <a href="categoryunderconstruction.html">Moda</a>
+                <a href="categoryunderconstruction.html">Regalos</a>
+                <a href="categoryunderconstruction.html">Hogar</a>
+                <a href="gallery.html">Peluches</a>
+                <a href="categoryunderconstruction.html">Papelería</a>
+                <a href="categoryunderconstruction.html">Accesorios</a>
+            </div>
         </section>
-
-    <aside id="info-product">
-        <section id="aside-description">
-        <section class="title-product">
-            <h3>Peluche Panda Rojo</h3>
+        <section class="cesta-menu">
+                <img class="cesta" src="/images/cesta.png" alt="">
+                <button class="home">Home</button>
+                <button class="categorias" onclick="mostrarCategoriasDesplegable()">Categorías</button>
         </section>
+    </header>
+    </header>
 
-        <section class="description-product-title">
-            <h4>Descipción del producto</h4>
-        </section>
+    <main>
+        <section id="all-product">
 
-        <section class="description-product">
-            <ul>
-                <li>Material: Microfibra</li>
-                <li>Marca: Pixar</li>
-                <li>Rango de edad: De 0 a 12 años</li>
-                <li>Dimensiones del producto: 12 x 16 x 25 cm.</p>
-                <li>N. modelo: 6315870287R </li>
-            </ul>
-        </section>
+            <section class="title-product">
+                <h2>Red Panda</h2>
+            </section>
+
+        <section id="product">
+            <section id ="imagen-product">
+                <img id="principal-imagen-product" src="/images/Peluche-Red.jpg">
+                    <div class="images-product">
+                        <img class="imagen-product2" onclick="changeImage (this)" src="/images/Peluche-Turning-Red.jpg">
+                        <img class="imagen-product3" onclick="changeImage (this)" src="/images/Peluche-Red-2.jpg">
+                        <img class="imagen-product4" onclick="changeImage (this)" src="/images/Peluche-Red-3.jpg">
+                    </div>
+            </section>
+
+        <aside id="info-product">
+            <section id="aside-description">
+                <section class="title-product">
+                    <h3>Peluche Panda Rojo</h3>
+                </section>
+
+            <section class="description-product-title">
+                <h4>Descipción del producto</h4>
+            </section>
+
+            <section class="description-product">
+                <ul>
+                    <li>Material: Microfibra</li>
+                    <li>Marca: Pixar</li>
+                    <li>Rango de edad: De 0 a 12 años</li>
+                    <li>Dimensiones del producto: 12 x 16 x 25 cm.</p>
+                    <li>N. modelo: 6315870287R </li>
+                </ul>
+            </section>
         
-        <section class ="price-like">
-            <p>11€</p>
-            <img id="like" onclick="changeImagenLike (this)" src="/images/like-icon-0.png">
-        </section>
+            <section class ="price-like">
+                <p>11€</p>
+                <img id="like" onclick="changeImagenLike (this)" src="/images/like-icon-0.png">
+            </section>
 
-    </section>
+            </section>
 
-        <section id="button-shop">
-            
-            <button class="shop" onclick=""><img class ="shop-basket" src="/images/basket.png">Añade a la cesta</button>
-        </section>
+            <section id="button-shop">
+                <button class="shop" onclick=""><img class ="shop-basket" src="/images/basket.png">Añade a la cesta</button>
+            </section>
 
-    </aside>
+        </aside>
 
 </section>
 
@@ -84,8 +109,11 @@
         <img class="recommended3"src="/images/donald.jpg">
         <img class="recommended4" src="/images/dumbo.jpg">
     </section>
-
+</main>
     <script src="/product.js/product.js"></script>
     <script src="/public/js/main.js" defer></script>
+   
+    
+
 </body>
 </html>
