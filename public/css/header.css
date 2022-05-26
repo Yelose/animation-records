@@ -1,56 +1,17 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+/* Error: expected "{".
+ *    ,
+ * 61 | >>>>>>> 8805eb38a62accb0b8b278291765876aad2272c8
+ *    |                                                 ^
+ *    '
+ *   src\sass\header.scss 61:49  root stylesheet */
 
-a {
-  text-decoration: none;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    \2577 \a 61 \2502  >>>>>>> 8805eb38a62accb0b8b278291765876aad2272c8\d\a    \2502                                                  ^\a    \2575 \a   src\\sass\\header.scss 61:49  root stylesheet';
 }
-
-button {
-  font-family: "Roboto", sans-serif;
-}
-
-h2 {
-  font-family: "Rum Raisin", sans-serif;
-}
-
-header {
-  padding-left: 15%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  min-width: 980px;
-}
-header .logo {
-  width: 10%;
-  min-width: 80px;
-}
-header section {
-  align-items: center;
-  display: flex;
-  width: 100%;
-  font-family: "Cabin Sketch";
-}
-header .cesta-menu button {
-  border-radius: 5px;
-  font-family: sans-serif;
-  border: none;
-  filter: drop-shadow(0px 4px 4px rgba(248, 237, 237, 0.25));
-}
-header .cesta-menu .home {
-  padding: 5px 28px;
-  background-color: #FFA3A3;
-}
-header .cesta-menu .categorias {
-  margin-left: 2%;
-  padding: 6px 9px;
-  background-color: #f6df4c;
-}
-header .cesta {
-  margin-right: 2%;
-  height: 30px;
-  width: 30px;
-}
-
-/*# sourceMappingURL=header.css.map */
