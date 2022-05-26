@@ -148,7 +148,6 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 2%;
 }
 
 .home, .categorias {
@@ -305,6 +304,11 @@ header {
     gap: 1vw;
   }
 }
+@media only screen and (max-width: 600px) {
+  .slider {
+    display: none;
+  }
+}
 .slider {
   align-items: center;
   background-color: white;
@@ -313,8 +317,6 @@ header {
   width: 90vw;
   position: relative;
   height: calc(60vh - 3vw);
-  margin-top: 2%;
-  margin-bottom: 2%;
 }
 
 .slider::before, .slider::after {
@@ -394,10 +396,6 @@ footer {
 a {
   color: black;
   text-decoration: none;
-}
-
-h1 {
-  font-family: "Cabin Sketch", sans-serif;
 }
 
 form {
