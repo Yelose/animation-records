@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/header.css">
     <script src="js/desplegable.js" defer></script>
     <script src="/public/js/main.js" defer></script>
+    <script src="js/cart.js" defer></script>
   </head>
   <body>
     <header>
@@ -28,11 +29,11 @@
       </section>
       
       <section class="cesta-menu">
-        <p>Nº</p>
+        <p class="cart-items-quantity">0</p>
         <img class="cesta" src="/images/cesta.png" alt="">
-        <button class="home">Home</button>
-        <button class="categorias" onclick="mostrarCategoriasDesplegable()">Categorías</button>
-      </section>
+        <a href="index.html" class="home">Home</a>
+        <a class="categorias" onclick="mostrarCategoriasDesplegable()">Categorías</a>
+        </section>
       
       <section class="desplegable-categorias" onclick="ocultarCategoriasDesplegable()">
         <div>

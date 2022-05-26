@@ -1,6 +1,7 @@
 .mi-cesta {
+  margin-top: -80px;
   margin: auto;
-  display: flex;
+  display: none;
   flex-flow: column nowrap;
   width: 70%;
   max-width: 800px;

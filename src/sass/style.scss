@@ -8,10 +8,13 @@
 a {
     color: black;
     text-decoration: none;
+    cursor: pointer;
 }
 
 h1 {
     font-family: 'Cabin Sketch', sans-serif;
+    font-size: clamp(28px, 4vw, 56px);
+    padding-left: 2vw;
 }
     form {
     display: flex;

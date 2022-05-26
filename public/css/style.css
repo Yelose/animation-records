@@ -134,8 +134,12 @@ header {
   display: flex;
   justify-content: space-between;
   flex-flow: wrap;
-  padding: 3%;
+  padding: 3% 3% 0 3%;
   align-items: center;
+}
+
+button {
+  border: none;
 }
 
 .logo-name {
@@ -149,6 +153,17 @@ header {
   justify-content: space-evenly;
   align-items: center;
   padding: 2%;
+  position: fixed;
+  right: 4vw;
+  z-index: 1001;
+}
+.cesta-menu p {
+  position: relative;
+  left: 50px;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 2px 6px;
+  background-color: hsl(116deg, 42%, 96%);
 }
 
 .home, .categorias {
@@ -167,9 +182,22 @@ header {
   border-radius: solid #F5C312;
 }
 
+.logo {
+  width: 6vw;
+  height: 6vw;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  header h1 {
+    display: none;
+  }
+}
 .mi-cesta {
+  margin-top: -80px;
   margin: auto;
-  display: flex;
+  display: none;
   flex-flow: column nowrap;
   width: 70%;
   max-width: 800px;
@@ -316,6 +344,8 @@ header {
   height: calc(60vh - 3vw);
   margin-top: 2%;
   margin-bottom: 2%;
+  overflow: hidden;
+  margin: auto;
 }
 
 .slider::before, .slider::after {
@@ -395,10 +425,13 @@ footer {
 a {
   color: black;
   text-decoration: none;
+  cursor: pointer;
 }
 
 h1 {
   font-family: "Cabin Sketch", sans-serif;
+  font-size: clamp(28px, 4vw, 56px);
+  padding-left: 2vw;
 }
 
 form {

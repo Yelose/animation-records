@@ -8,6 +8,8 @@
   height: calc(60vh - 3vw);
   margin-top: 2%;
   margin-bottom: 2%;
+  overflow: hidden;
+  margin: auto;
 }
 
 .slider::before, .slider::after {
