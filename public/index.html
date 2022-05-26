@@ -28,7 +28,7 @@
 <body>
   <header>
     <section class="logo-menu">
-      <div>
+      <div class ="logo-name">
         <img src="/images/Logo.png" alt="Animation Records Logo" class="logo">
         <h1>ANIMATION RECORDS</h1>
       </div>
@@ -37,6 +37,12 @@
         <a class="home menu">Home</a>
         <a class="categorias menu" onclick="mostrarCategoriasDesplegable()">Categorías</a>
       </div>
+    </section>
+    <section class="cesta-menu">
+      <p>Nº</p>
+      <img class="cesta" src="/images/cesta.png" alt="">
+      <button class="home">Home</button>
+      <button class="categorias" onclick="mostrarCategoriasDesplegable()">Categorías</button>
     </section>
     <section class="desplegable-categorias" onclick="ocultarCategoriasDesplegable()">
       <div>
@@ -118,14 +124,18 @@
     <section class="title-separator">
       <h2>Suscríbete a nuestra NewsLetter</h2>
       <form>
-        <label for="">Suscribirse</label>
-        <input type="email" placeholder="email">
-        <button type="submit">Enviar</button>
+        <label for="">Suscribirse </label>
+        <input class="placeholder" type="email" placeholder="email">
+        <button class="submit" type="submit">Enviar</button>
       </form>
     </section>
 
   </main>
 
 </body>
+
+<footer>
+  <p>&#169 Animation Records</p>
+</footer>
 
 </html>

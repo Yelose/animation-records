@@ -1,11 +1,14 @@
+@media only screen and (max-width: 600px) {
+  .slider {
+    display: none;
+  }
+}
 .slider {
   align-items: center;
-  background: #fff;
+  background-color: white;
   display: flex;
   justify-content: center;
-  background: white;
   width: 90vw;
-  overflow: hidden;
   position: relative;
   height: calc(60vh - 3vw);
 }
@@ -39,10 +42,6 @@
 .slider .slide {
   display: flex;
   align-items: center;
-}
-
-.slide-img {
-  height: 60vh;
 }
 
 @keyframes scroll {
