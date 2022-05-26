@@ -8,6 +8,7 @@
     overflow: hidden;
     position: relative;
     height: calc(60vh - 3vw);
+    margin: 10px;
 }
 
 .slider::before, .slider::after {
@@ -35,8 +36,6 @@
         animation: scroll 120s linear infinite;
         display: flex;
         width: 250vw;
-
-
 }
 
 .slider .slide {
