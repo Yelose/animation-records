@@ -333,15 +333,14 @@ header .cesta {
   justify-content: center;
   background: white;
   width: 90vw;
-  margin-top: 3%;
   overflow: hidden;
   position: relative;
+  height: calc(60vh - 3vw);
 }
 
 .slider::before, .slider::after {
   background: linear-gradient(to right, #fff 0%, rgba(255, 255, 255, 0) 100%);
   content: "";
-  height: 100%;
   position: absolute;
   width: 100px;
   z-index: 2;
@@ -371,7 +370,7 @@ header .cesta {
 }
 
 .slide-img {
-  width: 60vw;
+  height: 60vh;
 }
 
 @keyframes scroll {
