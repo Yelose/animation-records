@@ -172,6 +172,9 @@ header section h1 {
   margin-left: 2%;
   font-size: 150%;
 }
+header .cesta-menu {
+  flex-wrap: wrap;
+}
 header .cesta-menu button {
   border-radius: 5px;
   font-family: sans-serif;

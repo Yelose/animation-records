@@ -37,6 +37,8 @@ a {
                     }
         }        
        .cesta-menu{
+        flex-wrap: wrap;
+
             button{ 
                 border-radius: 5px;
                 font-family:sans-serif;
