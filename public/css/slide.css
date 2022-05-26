@@ -44,10 +44,6 @@
   align-items: center;
 }
 
-.slide-img {
-  height: 60vh;
-}
-
 @keyframes scroll {
   0% {
     transform: translateX(0);

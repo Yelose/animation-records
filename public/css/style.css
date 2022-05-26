@@ -144,6 +144,12 @@ header {
   align-items: center;
 }
 
+.cesta-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .mi-cesta {
   display: flex;
   flex-flow: column nowrap;
@@ -326,10 +332,6 @@ header {
 .slider .slide {
   display: flex;
   align-items: center;
-}
-
-.slide-img {
-  height: 60vh;
 }
 
 @keyframes scroll {
