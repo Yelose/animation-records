@@ -130,6 +130,26 @@ aside {
   width: 200px;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+  padding: 3%;
+  align-items: center;
+}
+
+.logo-name {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cesta-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .mi-cesta {
   display: flex;
   flex-flow: column nowrap;
@@ -268,14 +288,17 @@ aside {
     gap: 1vw;
   }
 }
+@media only screen and (max-width: 600px) {
+  .slider {
+    display: none;
+  }
+}
 .slider {
   align-items: center;
-  background: #fff;
+  background-color: white;
   display: flex;
   justify-content: center;
-  background: white;
   width: 90vw;
-  overflow: hidden;
   position: relative;
   height: calc(60vh - 3vw);
 }
@@ -309,10 +332,6 @@ aside {
 .slider .slide {
   display: flex;
   align-items: center;
-}
-
-.slide-img {
-  height: 60vh;
 }
 
 @keyframes scroll {
