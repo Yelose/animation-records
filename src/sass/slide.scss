@@ -54,9 +54,3 @@
         transform: translateX(calc(-250px * 9));
     }
 }
-
-@media screen and (max-width: 600px) {
-    .slider {
-        display: hidden;
-    }
-}
