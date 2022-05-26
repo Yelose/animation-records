@@ -4,70 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;700;800;900&family=Barlow:ital,wght@0,600;0,900;1,500&family=Comfortaa:wght@400;700&family=Fraunces:opsz,wght@9..144,900&family=Montserrat:wght@200;300;400&family=Open+Sans:wght@400;700&family=Oswald:wght@200;300;400&family=Poppins:wght@400;700&family=Public+Sans:wght@300;400&family=Righteous&family=Roboto+Slab:wght@300;400&family=Space+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Rum+Raisin&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="/public/css/style.css" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Rum+Raisin&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="css/desplegable.css">
+    <script src="/public/js/desplegable.js" defer></script>
+   
     
     <title>Producto Detallado</title>
 </head>
 
 <body>
 
-<section id="all-product">
+    <main>
+        <section id="all-product">
 
-        <section class="title-product">
-            <h2>Red Panda</h2>
-        </section>
+            <section class="title-product">
+                <h2>Red Panda</h2>
+            </section>
 
-    <section id="product">
-        <section id ="imagen-product">
-            <img id="principal-imagen-product" src="/images/Peluche-Red.jpg">
-                <div class="images-product">
-                    <img class="imagen-product2" onclick="changeImage (this)" src="/images/Peluche-Turning-Red.jpg">
-                    <img class="imagen-product3" onclick="changeImage (this)" src="/images/Peluche-Red-2.jpg">
-                    <img class="imagen-product4" onclick="changeImage (this)" src="/images/Peluche-Red-3.jpg">
-                </div>
-        </section>
+        <section id="product">
+            <section id ="imagen-product">
+                <img id="principal-imagen-product" src="/images/Peluche-Red.jpg">
+                    <div class="images-product">
+                        <img class="imagen-product2" onclick="changeImage (this)" src="/images/Peluche-Turning-Red.jpg">
+                        <img class="imagen-product3" onclick="changeImage (this)" src="/images/Peluche-Red-2.jpg">
+                        <img class="imagen-product4" onclick="changeImage (this)" src="/images/Peluche-Red-3.jpg">
+                    </div>
+            </section>
 
-    <aside id="info-product">
-        <section id="aside-description">
-        <section class="title-product">
-            <h3>Peluche Panda Rojo</h3>
-        </section>
+        <aside id="info-product">
+            <section id="aside-description">
+                <section class="title-product">
+                    <h3>Peluche Panda Rojo</h3>
+                </section>
 
-        <section class="description-product-title">
-            <h4>Descipción del producto</h4>
-        </section>
+            <section class="description-product-title">
+                <h4>Descipción del producto</h4>
+            </section>
 
-        <section class="description-product">
-            <ul>
-                <li>Material: Microfibra</li>
-                <li>Marca: Pixar</li>
-                <li>Rango de edad: De 0 a 12 años</li>
-                <li>Dimensiones del producto: 12 x 16 x 25 cm.</p>
-                <li>N. modelo: 6315870287R </li>
-            </ul>
-        </section>
+            <section class="description-product">
+                <ul>
+                    <li>Material: Microfibra</li>
+                    <li>Marca: Pixar</li>
+                    <li>Rango de edad: De 0 a 12 años</li>
+                    <li>Dimensiones del producto: 12 x 16 x 25 cm.</p>
+                    <li>N. modelo: 6315870287R </li>
+                </ul>
+            </section>
         
-        <section class ="price-like">
-            <p>11€</p>
-            <img id="like" onclick="changeImagenLike (this)" src="/images/like-icon-0.png">
-        </section>
+            <section class ="price-like">
+                <p>11€</p>
+                <img id="like" onclick="changeImagenLike (this)" src="/images/like-icon-0.png">
+            </section>
 
-    </section>
+            </section>
 
-        <section id="button-shop">
-            
-            <button class="shop"><img class ="shop-basket" src="/images/basket.png">Añade a la cesta</button>
-        </section>
+            <section id="button-shop">
+                <button class="shop" onclick=""><img class ="shop-basket" src="/images/basket.png">Añade a la cesta</button>
+            </section>
 
-    </aside>
+        </aside>
 
 </section>
 
@@ -81,8 +87,11 @@
         <img class="recommended3"src="/images/donald.jpg">
         <img class="recommended4" src="/images/dumbo.jpg">
     </section>
-
+</main>
     <script src="/product.js/product.js"></script>
     <script src="/public/js/main.js" defer></script>
+   
+    
+
 </body>
 </html>
