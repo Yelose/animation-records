@@ -5,7 +5,36 @@
 @import 'categories.scss';
 @import 'footer.scss';
 
+button {
+    border-color: none;
+}
 a {
     color: black;
     text-decoration: none;
+}
+
+
+form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+label {
+    margin-right: 1%;
+}
+
+.submit {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.137);
+    border-radius: 10px;
+    padding:2%;
+    background-color: #FFA3A3;
+    margin-left:1%;
+}
+
+.placeholder {
+    background: rgba(0, 0, 0, 0.04);
+    border: 1px solid #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding:2%;
 }
