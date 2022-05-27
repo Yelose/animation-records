@@ -1,14 +1,15 @@
 .slider {
   align-items: center;
-  background: #fff;
+  background-color: white;
   display: flex;
   justify-content: center;
-  background: white;
   width: 90vw;
-  overflow: hidden;
   position: relative;
   height: calc(60vh - 3vw);
-  margin: 10px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  overflow: hidden;
+  margin: auto;
 }
 
 .slider::before, .slider::after {
@@ -40,10 +41,6 @@
 .slider .slide {
   display: flex;
   align-items: center;
-}
-
-.slide-img {
-  height: 60vh;
 }
 
 @keyframes scroll {
