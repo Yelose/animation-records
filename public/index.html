@@ -43,36 +43,36 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap" rel="stylesheet">
+  
   <link
     href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;700;800;900&family=Barlow:ital,wght@0,600;0,900;1,500&family=Comfortaa:wght@400;700&family=Fraunces:opsz,wght@9..144,900&family=Montserrat:wght@200;300;400&family=Open+Sans:wght@400;700&family=Oswald:wght@200;300;400&family=Poppins:wght@400;700&family=Public+Sans:wght@300;400&family=Righteous&family=Roboto+Slab:wght@300;400&family=Space+Mono&display=swap"
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Rum+Raisin&display=swap"
     rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;700;800;900&family=Barlow:ital,wght@0,600;0,900;1,500&family=Comfortaa:wght@400;700&family=Fraunces:opsz,wght@9..144,900&family=Montserrat:wght@200;300;400&family=Open+Sans:wght@400;700&family=Oswald:wght@200;300;400&family=Poppins:wght@400;700&family=Public+Sans:wght@300;400&family=Righteous&family=Roboto+Slab:wght@300;400&family=Space+Mono&display=swap"
-    rel="stylesheet">
   <link rel="stylesheet" href="/public/css/style.css">
   <script src="js/desplegable.js" defer></script>
   <link rel="stylesheet" href="css/desplegable.css">
   <link rel="stylesheet" href="../public/css/categories.css">
+<<<<<<< HEAD
+>>>>>>> develop
+=======
+  <script src="js/desplegable.js" defer></script>
 >>>>>>> develop
 </head>
 
 <body>
   <header>
     <section class="logo-menu">
-      <div>
+      <div class ="logo-name">
         <img src="/images/Logo.png" alt="Animation Records Logo" class="logo">
         <h1>ANIMATION RECORDS</h1>
       </div>
-      <div>
-        
-      </div>
     </section>
     <section class="cesta-menu">
+      <p class="cart-items-quantity">0</p>
       <img class="cesta" src="/images/cesta.png" alt="">
-      <button class="home">Home</button>
-      <button class="categorias" onclick="mostrarCategoriasDesplegable()">Categorías</button>
+      <a href="index.html" class="home">Home</a>
+      <a class="categorias" onclick="mostrarCategoriasDesplegable()">Categorías</a>
     </section>
     <section class="desplegable-categorias" onclick="ocultarCategoriasDesplegable()">
       <div>
@@ -151,14 +151,20 @@
       </a>
     </section>
 
-    <section class="title-separator">
+    <section class="title-separator newsletter">
       <h2>Suscríbete a nuestra NewsLetter</h2>
       <form>
+<<<<<<< HEAD
        
         <label for="">Suscribirse</label>
         <input id="email" type="email" placeholder="email">
         <span id="emailOk"></span>
         <button type="submit">Enviar</button>
+=======
+        <label for="">Suscribirse </label>
+        <input class="placeholder" type="email" placeholder="email">
+        <button class="submit" type="submit">Enviar</button>
+>>>>>>> develop
       </form>
     
     </section>
@@ -166,5 +172,9 @@
   </main>
 
 </body>
+
+<footer>
+  <p>&#169 Animation Records</p>
+</footer>
 
 </html>
