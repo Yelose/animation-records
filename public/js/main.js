@@ -221,10 +221,9 @@ for (let i = 0; i < products.length; i++) {
                 <div class="product-price">${product.price}€</div>
             </a>
             <div class="buttons-add-to-cart">
-                <p class"plus-add-to-cart">+</p>
-                
+                <p class="plus-add-to-cart">+</p>
                 <img class="image-cart-in-product-gallery" src="${cartImage}">
-                <p class"minus-remove-from-cart">-</p>
+                <p class="minus-substract-from-cart">-</p>
             </div>
         </div>
     `;

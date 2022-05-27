@@ -42,7 +42,7 @@
 }
 .gallery-products-show .product-container .buttons-add-to-cart {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   width: 100%;
   height: 25%;
@@ -56,6 +56,19 @@
 .gallery-products-show .product-container .buttons-add-to-cart p {
   font-weight: bold;
   font-size: 30px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 4px;
+}
+.gallery-products-show .product-container .buttons-add-to-cart p:hover {
+  cursor: pointer;
+}
+.gallery-products-show .product-container .buttons-add-to-cart .plus-add-to-cart:hover {
+  background-color: #66BD5F;
+}
+.gallery-products-show .product-container .buttons-add-to-cart .minus-substract-from-cart:hover {
+  background-color: #F49FB6;
 }
 
 @media only screen and (max-width: 600px) {
