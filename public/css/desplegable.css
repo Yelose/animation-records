@@ -1,27 +1,33 @@
 .desplegable-categorias {
+  position: fixed;
   display: none;
   justify-content: flex-end;
   align-items: baseline;
-  position: absolute;
   height: 100vh;
   width: 100vw;
   top: 0;
   left: 0;
+  z-index: 10000;
 }
-.desplegable-categorias div {
-  margin: 5vw;
+.desplegable-categorias > div {
+  margin-top: 10vw;
+  margin-right: 5vw;
   width: 30vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: hsla(47, 92%, 52%, 0.75);
-  z-index: 10000;
   max-width: 300px;
   min-width: 200px;
 }
-.desplegable-categorias a {
+.desplegable-categorias > div > a {
   padding: 1.5vw;
   text-decoration: none;
+  width: 100%;
+  text-align: center;
+}
+.desplegable-categorias > div > a:hover {
+  background-color: #eef7ed;
 }
 
 @media only screen and (max-width: 600px) {
